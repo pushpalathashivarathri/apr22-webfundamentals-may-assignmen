@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>iframe </title>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+            text-align: center;
+            
+        }
+
+        #container1 {
+            display: flex;
+        }
+
+        #menu {
+            width: 20%;
+            background:linear-gradient(rgb(155, 23, 115),rgb(175, 66, 93), rgb(78, 78, 66));
+            border-right: 1px solid black;
+        }
+
+        #iframe {
+            width: 80%;
+            background:linear-gradient(rgb(155, 23, 115),rgb(175, 66, 93), rgb(78, 78, 66));
+            border:none ;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+            padding: 8px;
+            color: black;
+
+        }
+
+        .ad {
+            background-color: rgb(99, 208, 228);
+            margin-bottom: 30px;
+            padding: 10px;
+        }
+
+        #iframe {
+            margin: 0px;
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container1">
+        <div id="menu">
+            <div class="ad">
+                <a href="mobiles.html" target="rightpanel">Mobile</a>
+            </div>
+            <div class="ad">
+                <a href="Tv.html" target="rightpanel">TV</a>
+            </div>
+            <div class="ad">
+                <a href="laptops.html" target="rightpanel">Laptop</a>
+            </div>
+            <div class="ad">
+                <a href="mensclothing.html" target="rightpanel">Men's Clothing</a>
+            </div>
+            <div class="ad">
+                <a href="womensclothing.html" target="rightpanel">Women's Clothing</a>
+            </div>
+
+        </div>
+        <div id="iframe">
+            <iframe name="rightpanel" src="" width="100%" height="650px"></iframe>
+        </div>
+
+    </div>
+</body>
+
+</html>
